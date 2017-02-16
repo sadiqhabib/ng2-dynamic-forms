@@ -1,12 +1,12 @@
 {
-  "name": "@ng2-dynamic-forms/ui-bootstrap",
+  "name": "@ng2-dynamic-forms/ui-ngbootstrap",
   "version": "1.3.13",
   "description": "Bootstrap UI package for ng2 Dynamic Forms",
-  "main": "./bundles/ui-bootstrap.umd.js",
+  "main": "./bundles/ui-ngbootstrap.umd.js",
   "keywords": [
     "angular",
     "angular 2",
-    "bootstrap",
+    "ngbootstrap",
     "dynamic forms",
     "forms",
     "ng2 dynamic forms",
@@ -32,6 +32,7 @@
     "@angular/forms": "^2.4.7",
     "@angular/common": "^2.4.7",
     "@ng2-dynamic-forms/core": "^1.3.13",
+    "@ng-bootstrap/ng-bootstrap": "^1.0.0-alpha.20",
     "bootstrap": "^4.0.0-alpha.6",
     "rxjs": "^5.1.0"
   }
