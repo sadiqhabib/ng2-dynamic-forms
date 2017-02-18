@@ -19,7 +19,6 @@ let SRC_PATH = "./modules",
         "core",
         "ui-basic",
         "ui-bootstrap",
-        "ui-ngbootstrap",
         "ui-foundation",
         "ui-kendo",
         "ui-material",
@@ -81,8 +80,6 @@ gulp.task("bundle:ui-basic",
 gulp.task("bundle:ui-bootstrap",
     TASK_BUNDLE_ROLLUP(DIST_PATH, "ui-bootstrap", "ng2DF", pkg, DIST_PATH));
 
-gulp.task("bundle:ui-ngbootstrap",
-    TASK_BUNDLE_ROLLUP(DIST_PATH, "ui-ngbootstrap", "ng2DF", pkg, DIST_PATH));
 
 gulp.task("bundle:ui-foundation",
     TASK_BUNDLE_ROLLUP(DIST_PATH, "ui-foundation", "ng2DF", pkg, DIST_PATH));
@@ -136,7 +133,6 @@ gulp.task("build:modules", function (done) {
         "bundle:core",
         "bundle:ui-basic",
         "bundle:ui-bootstrap",
-        "bundle:ui-ngbootstrap",
         "bundle:ui-foundation",
         "bundle:ui-kendo",
         "bundle:ui-material",

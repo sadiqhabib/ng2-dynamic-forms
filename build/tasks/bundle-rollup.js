@@ -55,6 +55,7 @@ module.exports = function (entryRootPath, moduleName, globalsName, pkg, dest) {
             "@angular/platform-browser-dynamic": "ng.platformBrowserDynamic",
             "@angular/router": "ng.router",
             "@ng2-dynamic-forms/core": "ng2DF.core",
+            "@ng-bootstrap/ng-bootstrap":"_ngBootstrap_ngBootstrap",
             "@progress/kendo-angular-dateinputs": "progress/kendo-angular-dateinputs", // TODO
             "@progress/kendo-angular-dropdowns": "progress/kendo-angular-dropdowns", // TODO
             "@progress/kendo-angular-inputs": "progress/kendo-angular-inputs", // TODO

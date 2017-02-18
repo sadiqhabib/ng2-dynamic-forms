@@ -8,16 +8,16 @@ import {
     DynamicTemplateDirective
 } from "@ng2-dynamic-forms/core";
 
-export const DYNAMIC_FORM_UI_NGBOOTSTRAP = "NGBOOTSTRAP";
+export const DYNAMIC_FORM_UI_NG_BOOTSTRAP = "NGBOOTSTRAP";
 
 @Component({
 
     moduleId: module.id,
-    selector: "dynamic-form-ngbootstrap-control",
-    templateUrl: "./dynamic-form-ngbootstrap.component.html"
+    selector: "dynamic-form-ng-bootstrap-control",
+    templateUrl: "./dynamic-form-ng-bootstrap.component.html"
 })
 
-export class DynamicFormNgBootstrapComponent extends DynamicFormControlComponent {
+export class DynamicFormNGBootstrapComponent extends DynamicFormControlComponent {
 
     @Input() bindId: boolean = true;
     @Input() controlGroup: FormGroup;
@@ -31,7 +31,7 @@ export class DynamicFormNgBootstrapComponent extends DynamicFormControlComponent
 
     @ContentChildren(DynamicTemplateDirective) templates: QueryList<DynamicTemplateDirective>;
 
-    readonly type: string = DYNAMIC_FORM_UI_NGBOOTSTRAP;
+    readonly type: string = DYNAMIC_FORM_UI_NG_BOOTSTRAP;
 
     constructor(relationService: DynamicFormRelationService) {
         super(relationService);
